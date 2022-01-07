@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgba(241, 185, 31, 0.863);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header-link {
+  text-decoration: none;
+}
+.navbar {
+  background-color: rgba(117, 64, 180, 1);
+  text-align: center;
+  padding-top: 40px;
+  font-size: 25px;
+  color: white;
+  overflow: hidden;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 5rem;
+  font-size: 30px;
+  right: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  list-style: none;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.course {
+  color: rgba(241, 185, 31, 0.863);
+}
+
+.diyhub {
+  padding-top: 10px !important;
+}
+
+.coming-soon {
+  font-size: 15px;
+}
+
+.nav-item {
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.logo {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.sign-in {
+  float: right;
+  margin-top: 8px;
+  margin-right: 40px;
+  margin-left: -180px;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid orange;
+  background-color: #fd950e;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 0 0 1px #dd830e inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 4px 0 0 #dd830e, 0 4px 0 1px rgba(0, 0, 0, 0.4),
+    0 4px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  background: rgb(206, 206, 206);
+}
+
+.section-3 {
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.title-subtitle {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.competitions {
+  font-size: 34px;
+  font-family: "Rubik", sans-serif;
+  padding-bottom: 15px;
+}
+
+.paras {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.competition-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 525px;
+  width: 400px;
+  background: white;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.card-img {
+  width: 400px;
+  height: 250px;
+  border-radius: 40px 40px 0px 0px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.saleTrue {
+  background: green !important;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -255px;
+  margin-right: -10px;
+  border-radius: 0px 30px 0px 30px;
+  color: white;
+  float: right;
+  position: relative;
+}
+
+.saleFalse {
+  background: red;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: -255px;
+  margin-right: -10px;
+  border-radius: 0px 30px 0px 30px;
+  color: white;
+  float: right;
+  position: relative;
+}
+
+.card-heading {
+  position: relative;
+  padding: 15px;
+}
+
+.card-details {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.card-lines {
+  color: grey;
+  font-weight: 600;
+}
+
+.underline {
+  width: 400px;
+  height: 0.07rem;
+  background: grey;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.enter-now {
+  margin-top: 20px;
+  margin-left: 90px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid orange;
+  background-color: #fd950e;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 0 0 1px #dd830e inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 4px 0 0 #dd830e, 0 4px 0 1px rgba(0, 0, 0, 0.4),
+    0 4px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 5%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.section-4 {
+  background-color: rgba(117, 64, 180, 1);
+  color: white;
+  font-family: "Rubik", sans-serif;
+  /* overflow: hidden; */
+}
+
+.part-a {
+  display: flex;
+  padding: 100px;
+  padding-top: 80px;
+}
+
+.img {
+  cursor: pointer;
+}
+
+.lists {
+  display: flex;
+}
+
+.list-1 {
+  list-style: none;
+  margin-left: 250px;
+  padding-top: 40px;
+}
+
+.list1-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list-2 {
+  list-style: none;
+  margin-left: 200px;
+}
+
+.list2-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.about-item {
+  color: orange;
+}
+
+.list-3 {
+  list-style: none;
+  margin-left: 200px;
+  padding-top: 10px;
+}
+
+.list3-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.help-item {
+  color: orange;
+}
+
+.list-4 {
+  display: flex;
+  padding-left: 100px;
+}
+
+.list-4-item {
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.social {
+  padding-left: 650px;
+  font-size: 20px;
+}
+.about {
+  padding: 100px;
+}
+
+.about-paras {
+  font-size: 15px;
+  font-weight: 10px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
